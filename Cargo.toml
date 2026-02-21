@@ -1,0 +1,27 @@
+[package]
+name = "sixtysix"
+version = "0.1.0"
+edition = "2021"
+authors = ["Rumen Damyanov <contact@rumenx.com>"]
+description = "Minimal backend engine + HTTP API for the traditional 24-card trick-taking game Sixty-six"
+license = "MIT"
+repository = "https://github.com/rumendamyanov/rust-sixtysix"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+rand = "0.8"
+rand_chacha = "0.3"
+chrono = { version = "0.4", features = ["serde"] }
+hex = "0.4"
+axum = "0.7"
+tokio = { version = "1", features = ["full"] }
+tower-http = { version = "0.5", features = ["cors"] }
+
+[dev-dependencies]
+tower = { version = "0.4", features = ["util"] }
+http-body-util = "0.1"
+
+[[example]]
+name = "server"
+path = "examples/server.rs"
