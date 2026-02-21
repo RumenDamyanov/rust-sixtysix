@@ -46,7 +46,7 @@ Add as dependency:
 
 ```toml
 [dependencies]
-sixtysix = { git = "https://github.com/rumendamyanov/rust-sixtysix" }
+rumenx-sixtysix = { git = "https://github.com/rumendamyanov/rust-sixtysix" }
 ```
 
 Or clone and use directly:
@@ -60,9 +60,9 @@ cargo build
 Typical usage:
 
 ```rust
-use sixtysix::engine::Engine;
-use sixtysix::game::SixtySix;
-use sixtysix::store::Memory;
+use rumenx_sixtysix::engine::Engine;
+use rumenx_sixtysix::game::SixtySix;
+use rumenx_sixtysix::store::Memory;
 use std::sync::Arc;
 
 fn main() {

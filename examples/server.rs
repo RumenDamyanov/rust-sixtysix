@@ -1,9 +1,9 @@
 //! Example HTTP server for rust-sixtysix.
 
-use sixtysix::api::create_router;
-use sixtysix::engine::Engine;
-use sixtysix::game::SixtySix;
-use sixtysix::store::Memory;
+use rumenx_sixtysix::api::create_router;
+use rumenx_sixtysix::engine::Engine;
+use rumenx_sixtysix::game::SixtySix;
+use rumenx_sixtysix::store::Memory;
 use std::sync::Arc;
 
 #[tokio::main]

@@ -45,6 +45,6 @@ jobs:
         run: |
           echo "## Published to crates.io" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Crate**: sixtysix" >> $GITHUB_STEP_SUMMARY
+          echo "- **Crate**: rumenx-sixtysix" >> $GITHUB_STEP_SUMMARY
           echo "- **Version**: ${{ github.event.release.tag_name }}" >> $GITHUB_STEP_SUMMARY
-          echo "- **URL**: https://crates.io/crates/sixtysix" >> $GITHUB_STEP_SUMMARY
+          echo "- **URL**: https://crates.io/crates/rumenx-sixtysix" >> $GITHUB_STEP_SUMMARY

@@ -1,6 +1,6 @@
 [package]
-name = "sixtysix"
-version = "0.1.0"
+name = "rumenx-sixtysix"
+version = "1.0.0"
 edition = "2021"
 authors = ["Rumen Damyanov <contact@rumenx.com>"]
 description = "Minimal backend engine + HTTP API for the traditional 24-card trick-taking game Sixty-six"
