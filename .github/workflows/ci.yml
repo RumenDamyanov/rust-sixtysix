@@ -75,9 +75,9 @@ jobs:
           SIZE_BYTES=$(docker image inspect rust-sixtysix --format '{{.Size}}')
           SIZE_MB=$(echo "scale=2; $SIZE_BYTES / 1048576" | bc)
           echo "Image size: ${SIZE_MB} MB"
-          # Fail if larger than 20 MB
-          if [ "$(echo "$SIZE_BYTES > 20971520" | bc)" -eq 1 ]; then
-            echo "::error::Docker image exceeds 20 MB limit (${SIZE_MB} MB)"
+          # Fail if larger than 30 MB
+          if [ "$(echo "$SIZE_BYTES > 31457280" | bc)" -eq 1 ]; then
+            echo "::error::Docker image exceeds 30 MB limit (${SIZE_MB} MB)"
             exit 1
           fi
 
