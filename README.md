@@ -1,5 +1,11 @@
 # rust-sixtysix
 
+[![CI](https://github.com/RumenDamyanov/rust-sixtysix/actions/workflows/ci.yml/badge.svg)](https://github.com/RumenDamyanov/rust-sixtysix/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/RumenDamyanov/rust-sixtysix/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/RumenDamyanov/rust-sixtysix/actions/workflows/github-code-scanning/codeql)
+[![Dependabot](https://github.com/RumenDamyanov/rust-sixtysix/actions/workflows/dependabot/dependabot-updates/badge.svg)](https://github.com/RumenDamyanov/rust-sixtysix/actions/workflows/dependabot/dependabot-updates)
+[![codecov](https://codecov.io/gh/RumenDamyanov/rust-sixtysix/graph/badge.svg)](https://codecov.io/gh/RumenDamyanov/rust-sixtysix)
+[![crates.io](https://img.shields.io/crates/v/rumenx-sixtysix.svg)](https://crates.io/crates/rumenx-sixtysix)
+[![docs.rs](https://docs.rs/rumenx-sixtysix/badge.svg)](https://docs.rs/rumenx-sixtysix)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE.md)
 
 Minimal backend engine + HTTP API for the traditional 24-card trick-taking game **Sixty-six** (AKA *Schnapsen* variant family). Built in Rust for frontend clients (web, mobile, CLI bots) that want a stateless, deterministic core.
