@@ -6,7 +6,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
+      day: "friday"
       time: "09:00"
     open-pull-requests-limit: 10
     reviewers:
@@ -25,7 +25,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
+      day: "friday"
       time: "09:00"
     reviewers:
       - "RumenDamyanov"
@@ -43,7 +43,7 @@ updates:
     directory: "/"
     schedule:
       interval: "weekly"
-      day: "monday"
+      day: "friday"
       time: "09:00"
     reviewers:
       - "RumenDamyanov"
