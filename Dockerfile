@@ -3,7 +3,7 @@
 ##   docker build -t rust-sixtysix:dev .
 ##   docker run -p 8080:8080 rust-sixtysix:dev
 
-FROM rust:1.83 AS build
+FROM rust:1.94 AS build
 WORKDIR /src
 COPY Cargo.toml Cargo.lock* ./
 # Create dummy main to cache deps
