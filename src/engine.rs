@@ -224,10 +224,7 @@ impl Engine {
 
 /// Generate a random hex ID (32 hex chars = 16 bytes).
 fn random_id() -> String {
-    let mut buf = [0u8; 16];
-    // Use getrandom via rand
-    use rand::RngCore;
-    rand::thread_rng().fill_bytes(&mut buf);
+    let buf: [u8; 16] = rand::random();
     hex::encode(buf)
 }
 
